@@ -1,6 +1,6 @@
 ---
 title: "自分好みのアウトライナーを開発した記録" # 記事のタイトル
-emoji: ""
+emoji: "📖"
 type: "idea" # tech: 技術記事 / idea: アイデア記事
 topics: ["react", "個人開発", "アウトライナー"] # タグ。["markdown", "rust", "aws"]のように指定する
 published: true # 公開設定（falseにすると下書き）
