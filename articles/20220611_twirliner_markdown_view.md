@@ -1,10 +1,15 @@
 ---
 title: "自作のアウトライナーに Markdown 互換ビューを実装"
-published: false
+published: true
 type: "idea"
 topics: ["アウトライナー", "個人開発", "markdown"]
 emoji: "👌🏻"
 ---
+
+![デモ](/images/20220611_twirliner_markdown_view/demo.gif)
+
+> 実際の動作を確かめたい場合は[この JSON データ](https://github.com/k4a-dev/zenn/blob/main/custom/assets/markdownView.json)を[ここ](https://twirliner.k4a.me/local/import)からインポートして、[ここ](https://twirliner.k4a.me/local?id0=root)にアクセスしてください。
+> 右上に設定アイコン郡が並んでいるので、`show/hide indent`と`show/hide bullet`を`hide`にすればマークダウンっぽい見た目になります。
 
 ## はじめに
 
@@ -14,8 +19,6 @@ https://zenn.dev/k4a/articles/introducing_twirliner
 
 マークダウン形式でエクスポートする機能はつけているのですが、あくまで機械的にヘッディングなどを生成します。
 アウトラインに適した文章構造とマークダウンに適した文章構造は微妙に異なるため、エクスポート後に整形する作業が必要でした。
-
-### アウトライナー構造とマークダウン構造の差異
 
 #### アウトライナー構造
 
